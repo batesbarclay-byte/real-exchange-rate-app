@@ -1,4 +1,3 @@
-"""
 Real Exchange Rate (RER) app using IMF SDMX 3.0 data.
 
 Definitions
@@ -426,5 +425,3 @@ with st.expander("Method and data sources"):
   **Real Index(t)** = 100 × RER(t) / RER\\*, so it averages exactly 100 over the sample.
 - Euro area uses IMF code `G163`. Data begin January 1976 where available; gaps are left as missing.
 - Source: IMF SDMX 3.0 API, `{BASE_URL}`.
-"""
-    )
